@@ -1,17 +1,10 @@
-"""
-"""
-"""
-class saludo:
-    def __init__(self,saludos):
-        self.s= saludos
-h= saludo("Hola mundo")
-print(h.s)
-"""
+class alumno:
+	def __init__(self):
+		self.nombre = "Diego"
+	def saludar(self):
+		"""imprime un saludo en pantalla"""
+		print (f" Hola, {self.nombre}")
 
-class saludo:
-	def __init__(self,saludos):
-		self.s=saludos
-n=input("Ingrese su nombre: ")
-h= saludo("Hola "+n+" Bienvenido")
-print(h.s)
-
+x = alumno
+x.saludar()
+print(x.nombre)
